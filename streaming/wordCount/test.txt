@@ -1,0 +1,5 @@
+hello world
+hello python
+hello hadoop
+hello streaming
+goodbye streaming
