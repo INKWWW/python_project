@@ -83,4 +83,7 @@ if __name__ == '__main__':
 
     inputpath = 'C:\\spark\\data\\my_data\\iris_data.txt'
     outputpath = 'C:\\spark\\data\\my_data\\iris_data_ori.csv'
-    txt2csv_direct(inputpath, outputpath)
+    # txt2csv_direct(inputpath, outputpath)
+
+    for i in range(12):
+        print(i)
