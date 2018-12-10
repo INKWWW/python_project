@@ -38,7 +38,7 @@ class A(object):
         ''''' 
         @summary: 当删除属性时调用该方法
         ''' 
-        print("__delitem__:Delect attribute '{}'".format(name))
+        print("__delitem__:Delete attribute '{}'".format(name))
         del self.__dict__[name] 
         print(self.__dict__) 
 
