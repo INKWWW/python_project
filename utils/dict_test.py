@@ -13,7 +13,19 @@ def dictDel():
     print('delete this dict')
 
 
+def duplicate_key():
+    '''
+    测试多重键值
+    结论：不会有多重键值的出现，以后赋值的为准
+    '''
+    dd = {'wong': 12, 'wong': 13}
+    print('dict is ', dd)
+    v1 = dd['wong']
+    print('v1 is ', v1)
+
+
 class A(object): 
+    '''test dict's magic method'''
     def __init__(self): 
         self['B'] = "BB" 
         self['D'] = "DD" 
@@ -46,12 +58,15 @@ class A(object):
 if __name__ == '__main__':
     # dictDel()
 
-    print('### __init__ process: ###')
-    X = A() 
-    print('### check bb in this dict ? ###')
-    b = X['bb'] 
-    print('### add key:value to this dict: ')
-    X['cc'] = 'CC'
+    # print('### __init__ process: ###')
+    # X = A() 
+    # print('### check bb in this dict ? ###')
+    # b = X['bb'] 
+    # print('### add key:value to this dict: ')
+    # X['cc'] = 'CC'
+
+    # duplicate key
+    duplicate_key()
 
 
 
