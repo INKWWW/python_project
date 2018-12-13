@@ -31,7 +31,6 @@ def readFile(file_path):
     f.close()
 
 
-
 if __name__ == '__main__':
     file_path_1 = '../test_files/h5py_test.hdf5'
     # createFile(file_path_!)
