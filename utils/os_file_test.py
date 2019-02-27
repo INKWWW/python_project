@@ -15,7 +15,7 @@ def testOsPathSplitext(filepath):
     for _, _, filename in os.walk(filepath):
         print('filename: {}'.format(filename))
     for file in filename:
-        if os.path.splitext(file) == '.hdf5':
+        if os.path.splitext(file)[1] == '.hdf5':
             print('That is it')
 
 
